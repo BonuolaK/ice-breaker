@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-function IceBreaker() {
+function Landing() {
   const [posts, setPosts] = React.useState<any[]>([]);
 
   React.useEffect(() => {
@@ -22,4 +22,4 @@ function IceBreaker() {
   );
 }
 
-export default IceBreaker;
+export default Landing;
